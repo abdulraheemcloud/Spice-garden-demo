@@ -1,0 +1,211 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO tags: local business, Chennai based (example city) -->
+  <title>Madras Marina | Authentic South Indian Restaurant in Chennai</title>
+  <meta name="description" content="Madras Marina serves authentic Chettinad, Tamil Nadu & Kerala dishes in Chennai. Visit us for dosa, idli, seafood specials & traditional thali.">
+  <meta name="keywords" content="South Indian restaurant Chennai, best dosa in Chennai, Chettinad chicken, vegetarian South Indian, Marina Beach road eatery">
+  <meta name="geo.region" content="IN-TN">
+  <meta name="geo.placename" content="Chennai">
+  <!-- Open Graph (optional but nice) -->
+  <meta property="og:title" content="Madras Marina - Authentic South Indian Flavours">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-placeholder.jpg">
+  <meta property="og:description" content="Traditional recipes from Tamil Nadu, Kerala & Andhra. Dine-in or order via WhatsApp.">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome for icons (lightweight CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">Madras Marina <span class="logo-south">साउथ इंडियन</span></a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#specials" class="nav-link">Specials</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <!-- WhatsApp order button (also in nav for quick action) -->
+          <li class="whatsapp-nav">
+            <a href="https://wa.me/919876543210?text=Hello%2C%20I'd%20like%20to%20order%20from%20Madras%20Marina" target="_blank" class="whatsapp-btn" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i> Order on WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section with image placeholder -->
+    <section id="home" class="hero">
+      <div class="hero-image">
+        <!-- Image placeholder: chef/recommendation later replaced by bg in css -->
+      </div>
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h1>Authentic South Indian <br>Since 1985</h1>
+          <p>Chettinad curries • Malabar biryani • Fresh seafood • Crispy dosas</p>
+          <a href="#menu" class="btn-primary">Explore Our Menu</a>
+          <a href="https://wa.me/919876543210?text=Hi%2C%20I'd%20like%20to%20order%20takeaway%20from%20Madras%20Marina" target="_blank" class="btn-whatsapp" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> WhatsApp Order
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specials Section with image placeholders -->
+    <section id="specials" class="specials">
+      <div class="container">
+        <h2 class="section-title">Today's Specials</h2>
+        <div class="specials-grid">
+          <div class="special-card">
+            <div class="special-img">
+              <img src="images/special-chettinad.jpg" alt="Chettinad Chicken" loading="lazy">
+            </div>
+            <h3>Chettinad Pepper Chicken</h3>
+            <p>Authentic aromatic curry with freshly ground spices.</p>
+          </div>
+          <div class="special-card">
+            <div class="special-img">
+              <img src="images/special-meen.jpg" alt="Meen Moilee" loading="lazy">
+            </div>
+            <h3>Meen Moilee (Fish Stew)</h3>
+            <p>Kerala style fish in coconut milk & curry leaves.</p>
+          </div>
+          <div class="special-card">
+            <div class="special-img">
+              <img src="images/special-biryani.jpg" alt="Malabar Biryani" loading="lazy">
+            </div>
+            <h3>Malabar Biryani</h3>
+            <p>Fragrant short-grain rice with spiced mutton.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section with improved card design & food images -->
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2 class="section-title">Our Signature Menu</h2>
+        <div class="menu-grid">
+          <!-- Breakfast / Tiffin items -->
+          <div class="menu-card">
+            <img src="images/menu-dosa.jpg" alt="Ghee Roast Dosa" class="menu-img" loading="lazy">
+            <div class="menu-content">
+              <h3>Ghee Roast Dosa <span class="price">₹185</span></h3>
+              <p>Crispy dosa basted with ghee, served with coconut chutney & sambar.</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="images/menu-idli.jpg" alt="Idli Sambar" class="menu-img" loading="lazy">
+            <div class="menu-content">
+              <h3>Idli (2 pcs) <span class="price">₹90</span></h3>
+              <p>Soft rice cakes with lentil soup, chutney & spicy podi.</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="images/menu-uttapam.jpg" alt="Onion Uttapam" class="menu-img" loading="lazy">
+            <div class="menu-content">
+              <h3>Onion Uttapam <span class="price">₹150</span></h3>
+              <p>Thick rice pancake topped with onions, tomatoes & chillies.</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="images/menu-meals.jpg" alt="South Indian Thali" class="menu-img" loading="lazy">
+            <div class="menu-content">
+              <h3>Vegetarian Thali <span class="price">₹320</span></h3>
+              <p>Unlimited rice, sambar, rasam, poriyal, kootu, papad & buttermilk.</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="images/menu-seafood.jpg" alt="Prawn Masala" class="menu-img" loading="lazy">
+            <div class="menu-content">
+              <h3>Prawn Masala <span class="price">₹410</span></h3>
+              <p>Fresh prawns cooked in coconut-based spicy gravy.</p>
+            </div>
+          </div>
+          <div class="menu-card">
+            <img src="images/menu-payassam.jpg" alt="Payasam" class="menu-img" loading="lazy">
+            <div class="menu-content">
+              <h3>Vermicelli Payasam <span class="price">₹120</span></h3>
+              <p>Traditional kheer with nuts, raisins & cardamom.</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-note">* All prices are in INR (incl. taxes). Ask our staff for daily specials.</div>
+      </div>
+    </section>
+
+    <!-- Gallery Section (image placeholders) -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2 class="section-title">Restaurant Gallery</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/gallery-interior.jpg" alt="Restaurant interior with traditional decor" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="images/gallery-dosa.jpg" alt="Chef making dosa" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="images/gallery-banana-leaf.jpg" alt="Serving on banana leaf" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="images/gallery-spices.jpg" alt="Fresh spices display" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact + Google Maps Embed -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Visit or Order</h2>
+        <div class="contact-wrapper">
+          <div class="contact-details">
+            <h3>Madras Marina <span class="badge">since 1985</span></h3>
+            <p><i class="fas fa-map-marker-alt"></i> 37, Marina Beach Road, Triplicane, Chennai – 600005</p>
+            <p><i class="fas fa-phone-alt"></i> <a href="tel:+914412345678">+91 44 1234 5678</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:order@madrasmarina.in">order@madrasmarina.in</a></p>
+            <p><i class="far fa-clock"></i> Open daily: 7:00 AM – 11:00 PM</p>
+            <div class="whatsapp-contact">
+              <a href="https://wa.me/919876543210?text=Hungry%20for%20South%20Indian%20food!" target="_blank" class="whatsapp-large" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Order via WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="map-container">
+            <!-- Google Maps embed (placeholders coordinates for Chennai near Marina) -->
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2354153860136!2d80.27936671482257!3d13.050666590812007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f5a5a5a5b8d%3A0xb05f4fa9b5d3c2f!2sMarina%20Beach%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Madras Marina — Authentic South Indian Cuisine. All rights reserved.</p>
+      <p class="footer-small">Designed for Chennai foodies. Follow us <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-facebook"></i></a></p>
+    </div>
+  </footer>
+
+  <!-- Link to JavaScript (mobile toggle & smooth scroll) -->
+  <script src="js/script.js"></script>
+</body>
+                                                  </html>
